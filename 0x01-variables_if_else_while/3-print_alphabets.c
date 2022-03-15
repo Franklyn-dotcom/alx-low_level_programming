@@ -4,16 +4,19 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char j = "a";
 	char b = "A";
 
-	while(j <= "z"){
+	while(j <= "z")
+	{
 	   putchar(j);
 	   j++;
 	}
-	while(b <= "Z"){
+	while(b <= "Z")
+	{
 	   putchar(b);
 	   b++;
 	}
